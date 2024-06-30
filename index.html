@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz</title>
+        <link rel="stylesheet" href="src/css/styles.css" />
+    </head>
+    <body>
+        <section>
+            <main>
+                <h1>QUIZ</h1>
+
+                <h2 id="question"></h2>
+
+                <h2>---------Options-----------</h2>
+
+                <div id="buttons">
+                    <div>
+                        1 -
+                        <button
+                            type="button"
+                            class="alternative"
+                            id="options0"
+                            value="0"
+                        ></button>
+                    </div>
+                    <div>
+                        2 -
+                        <button
+                            type="button"
+                            class="alternative"
+                            id="options1"
+                            value="1"
+                        ></button>
+                    </div>
+                    <div>
+                        3 -
+                        <button
+                            type="button"
+                            class="alternative"
+                            id="options2"
+                            value="2"
+                        ></button>
+                    </div>
+                    <div>
+                        4 -
+                        <button
+                            type="button"
+                            class="alternative"
+                            id="options3"
+                            value="3"
+                        ></button>
+                    </div>
+                </div>
+
+                <h3 id="statusAnswer"></h3>
+
+                <div id="input">
+                    <input type="button" id="reload" value="Reload" />
+                </div>
+            </main>
+        </section>
+
+        <script src="src/js/scripts.js"></script>
+    </body>
+</html>
